@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MetaCoin - Truffle Webpack Demo w/ Frontend</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+</head>
+<body>
+  <h1>CryptoCalc 2.0</h1>
+  <h2>Blockchain calculator</h2>
+  <h3>You have <span class="black"><span id="balance"></span> META</span></h3>
+
+  <br>
+  <label for="operation">Choose a calculator operation</label>
+  <select id="operation">
+      <option value="1">Add</option>
+      <option value="2">Subtract</option>
+      <option value="3">Mulitply</option>
+      <option value="4">Divide</option>
+  </select>
+  <label for="number-one">Number 1:</label>
+  <input id="number-one" type="number" >
+  <label for="number-two">Number 2:</label>
+  <input id="number-two" type="number" >
+
+  <button id="calculate" onclick="App.calculate()">Calculate!</button>
+
+  <br>
+  <input id="result">
+</body>
+</html>
